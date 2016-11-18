@@ -2,8 +2,8 @@
 
 (function(){
     
-    let phoneListCtrl = function($scope){
-        let _this = this;
+    var phoneListCtrl = function($scope){
+        var _this = this;
 
         $scope.name = "priyank patel"
         this.phones = [
